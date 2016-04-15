@@ -1,0 +1,129 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(40, 44, 52);
+    color: rgb(157, 165, 180);
+    margin: 0;
+    line-height: 160%;
+    font-weight: 300;
+}
+
+h1 {
+    font-weight: 300;
+    margin: 0;
+    color: rgb(75, 170, 255);
+}
+
+h3 {
+    font-weight: 300;
+    color: rgb(225, 225, 236);
+}
+
+hr {
+    clear: both;
+    border: 0;
+    height: 1px;
+    background-color: rgb(157, 165, 180);
+}
+
+a:link {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:visited {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:active {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.head {
+    background-color: rgb(33, 37, 43);
+    text-align: center;
+}
+
+.main {}
+
+
+/*HEAD*/
+
+.logo {
+    float: left;
+}
+
+.navigation {
+    text-align: left;
+    margin: 0 auto !important;
+    display: inline-block
+}
+
+.head a {
+    padding: 10px;
+    display: inline-block;
+}
+
+.head a:hover {
+    background-color: rgb(40, 44, 52);
+}
+
+.selected {
+    background-color: rgb(40, 44, 52);
+}
+
+.login {
+    float: right;
+}
+
+
+/*MAIN*/
+
+.content {
+    width: 1200px;
+    margin: 0 auto 0 auto;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.content .image {
+    float: left;
+    position: relative;
+    margin: 16px 0 16px 12px;
+    height: 164px;
+}
+
+.content .image:first-of-type {
+    margin: 16px 0 16px 0;
+}
+
+.image .imgTitle {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    display: inline-block;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+    transition: bottom 0.3s;
+    pointer-events: none;
+}
+
+.image:hover .imgTitle {
+    bottom: 20px;
+}
+
+.timestamp {
+    float: right;
+    font-size: 13px;
+}
